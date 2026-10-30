@@ -1,6 +1,5 @@
 temperature = int(input("What is today's temperature in Celsius?: "))
  
-# PART 2: Decide between outdoor and indoor activity
 if temperature < 20:
     hobby = "indoor reading"
     print("It is cooler today."\n "Do", hobby)
